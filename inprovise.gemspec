@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Inprovise::VERSION
   gem.add_dependency('colored', '~> 1.2')
-  gem.add_dependency('net-ssh', '~> 5.0')
+  gem.add_dependency('net-ssh', '>= 5', '< 7')
   gem.add_dependency('net-sftp', '~> 2.1')
   gem.add_dependency('gli', '~> 2.14')
   gem.add_dependency('tilt', '~> 2.0')
